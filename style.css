@@ -4,7 +4,46 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .letras {
+        display: inline-block;
+    }
+    .estilo_letras {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    
+    .letra_certa {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: green;
+    }
+    
+    .letra_errada {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: red;
+    }
+
+  }
 
 html, body {
     height: 100%;
