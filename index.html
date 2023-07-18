@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palavreado</title>
+  <meta name="description" content="Jogo de adivinhar palavrões, xingamentos e palavras de baixo calão">
+  <meta name="keywords" content="palavreado, palavrao, xingamento, jogo">
+  <meta name="author" content="Luís Henrique">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- javascript -->
+  <script src="palavreado.js"></script>
+
+
+</head>
+
+<body>
+    <div class="principal">
+        <div class="letras">
+            <input type="text" class="estilo_letras" id="letra1" name="letra1" maxlength="1">
+        </div><!--primeira_letra-->
+        <div class="letras">
+            <input type="text" class="estilo_letras" id="letra2" name="letra2" maxlength="1">
+        </div><!--segunda-letra-->
+        <div class="letras">
+            <input type="text" class="estilo_letras" id="letra2" name="letra3" maxlength="1">
+        </div><!--terceira-letra-->
+        <div class="letras">
+            <input type="text" class="estilo_letras" id="letra4" name="letra4" maxlength="1">
+        </div><!--quarta-letra-->
+        <div class="letras">
+            <input type="text" class="estilo_letras" id="letra5" name="letra5" maxlength="1">
+        </div><!--quinta-letra-->
+        <div>
+            <button onclick="compararValores()" class="botao">OK</button>
+            <div id="mensagem_certa">
+                </div> <!-- Mensagem certa -->
+           </div>
+           <div id="desistir">
+            <button onclick="desistir()" class="botao_desistir">FODAS, CANSEI!</button>
+        </div><!-- Botão de desistir -->
+        <div id="mensagem_desistir">
+            </div><!-- Mensagem desistir -->
+        
+    </div><!--principal-->
+
+    
+  
+    </body>
+</body>
+
+</html>
